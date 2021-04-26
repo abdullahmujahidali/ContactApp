@@ -4,6 +4,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -30,11 +31,21 @@ public class UserAdapterHor extends RecyclerView.Adapter<UserAdapterHor.ViewHold
     public class ViewHolder extends RecyclerView.ViewHolder{
         ImageView ivPref;
         TextView tvName;
+        Button editBtn;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             ivPref=itemView.findViewById(R.id.ivpref);
             tvName=itemView.findViewById(R.id.tvName);
+            editBtn=itemView.findViewById(R.id.editBtn);
+
+            editBtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    myActivity.onItemClick(newUser.indexOf((User) itemView.getTag()));
+                }
+            });
         }
+
     }
 
     @NonNull

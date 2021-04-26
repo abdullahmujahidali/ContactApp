@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.wtechweb.assignment3_mad">
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Assignment3_MAD">
-        <activity android:name=".AddContact"></activity>
+        <activity android:name=".EditUser"></activity>
+        <activity android:name=".AddContact" />
         <activity android:name=".MainScreen" />
         <activity android:name=".MainActivity">
             <intent-filter>

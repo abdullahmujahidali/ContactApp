@@ -64,7 +64,7 @@
             app:icon="@drawable/callicon" />
 
         <Button
-            android:id="@+id/adduserbtn"
+            android:id="@+id/editBtn"
             android:layout_width="55dp"
             android:layout_height="61dp"
             android:layout_marginTop="20sp"

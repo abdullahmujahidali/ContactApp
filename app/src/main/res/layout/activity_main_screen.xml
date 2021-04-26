@@ -37,7 +37,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/adduserbtn"
+            android:id="@+id/editBtn"
             android:layout_width="76dp"
             android:layout_height="89dp"
             android:layout_marginTop="20sp"
@@ -91,7 +91,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/list2"
         android:layout_width="match_parent"
-        android:layout_height="136dp" />
+        android:layout_height="wrap_content" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/list"

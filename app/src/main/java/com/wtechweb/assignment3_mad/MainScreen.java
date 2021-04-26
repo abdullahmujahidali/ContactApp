@@ -2,7 +2,6 @@ package com.wtechweb.assignment3_mad;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -16,7 +15,6 @@ import android.widget.Toast;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
 
 
@@ -37,7 +35,7 @@ public class MainScreen extends AppCompatActivity implements UserAdapter.ItemCli
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_screen);
 
-        adduserbtn= findViewById(R.id.adduserbtn);
+        adduserbtn= findViewById(R.id.editBtn);
         recyclerView = findViewById(R.id.list);
         recyclerView2 = findViewById(R.id.list2);
         recyclerView2.setHasFixedSize(true);
@@ -123,4 +121,6 @@ public class MainScreen extends AppCompatActivity implements UserAdapter.ItemCli
         startActivity(intent);
         Toast.makeText(this,user.get(index).getPhoneNumber(),Toast.LENGTH_SHORT).show();
     }
+
+
 }

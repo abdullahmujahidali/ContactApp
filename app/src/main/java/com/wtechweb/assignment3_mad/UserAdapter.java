@@ -1,8 +1,6 @@
 package com.wtechweb.assignment3_mad;
 
 import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,8 +11,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
 
 public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
@@ -44,7 +40,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
             tvName=itemView.findViewById(R.id.tvName);
             tvAddress=itemView.findViewById(R.id.tvAddress);
             button5=itemView.findViewById(R.id.button5);
-            button6=itemView.findViewById(R.id.adduserbtn);
+            button6=itemView.findViewById(R.id.editBtn);
             button5.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

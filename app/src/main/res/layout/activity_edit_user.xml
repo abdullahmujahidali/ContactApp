@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3dac3"
+    android:orientation="vertical"
+    tools:context=".EditUser" >
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:layout_margin="5sp"
+        app:srcCompat="@drawable/edituser" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="EDIT DETAILS"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="20sp"
+        android:ems="10"
+        android:hint="Full Name:"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="20sp"
+        android:ems="10"
+        android:hint="Email:"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="20sp"
+        android:ems="10"
+        android:hint="Address: "
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="20sp"
+        android:ems="10"
+        android:hint="Phone NUmber:"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="10sp"
+        android:text="Button"
+        app:backgroundTint="@android:color/black"
+        app:cornerRadius="25sp" />
+</LinearLayout>
