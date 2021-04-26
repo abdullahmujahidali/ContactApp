@@ -5,5 +5,5 @@ Allow user to add contact and view it into different layouts of RecycclerView
 ![](app/src/main/res/drawable/pic1.png)
 ![](app/src/main/res/drawable/pic3.png)
 ![](app/src/main/res/drawable/main1.png)
-![](app/src/main/res/drawable/main2.png)
-![](app/src/main/res/drawable/pic5.png)
+![](app/src/main/res/drawable/main3.png)
+![](app/src/main/res/drawable/pic4.png)
